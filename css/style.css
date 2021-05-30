@@ -7,6 +7,7 @@ body {
   background-repeat: repeat-y;
   background-position: top;
   background-size: center;
+  overflow-x: hidden;
 }
 
 .container {
