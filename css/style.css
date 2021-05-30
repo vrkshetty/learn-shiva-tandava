@@ -1,3 +1,8 @@
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -7,9 +12,6 @@ body {
   background-repeat: repeat-y;
   background-position: top;
   background-size: center;
-}
-html {
-  overflow-x: hidden;
 }
 
 .container {
@@ -32,7 +34,7 @@ html {
   font-size: 20px;
   color: rgb(1, 0, 68);
   font-weight: 900;
-  padding: 10px;
+  /* padding: 10px; */
 }
 */ .audio {
   -webkit-transition: all 0.5s linear;
