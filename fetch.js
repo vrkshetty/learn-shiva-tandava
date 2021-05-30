@@ -12,7 +12,7 @@ for (var i = 0; i < myListLen; i++) {
   shivaAudoSrc = myList[i].audoSrc;
 
   mainDiv = document.createElement("div");
-  mainDiv.className = "image_container ";
+  mainDiv.className = "container ";
   childDiv = document.createElement("div");
   para = document.createElement("p");
   para.className = "para_text";
