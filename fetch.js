@@ -1,10 +1,3 @@
-window.addEventListener("load", function () {
-  setTimeout(function () {
-    // This hides the address bar:
-    window.scrollTo(0, 1);
-  }, 0);
-});
-
 myListLen = myList.length;
 
 for (var i = 0; i < myListLen; i++) {
@@ -29,6 +22,13 @@ for (var i = 0; i < myListLen; i++) {
   mainDiv.appendChild(audio);
   document.body.appendChild(mainDiv);
 }
+
+window.addEventListener("load", function () {
+  setTimeout(function () {
+    // This hides the address bar:
+    window.scrollTo(0, 1);
+  }, 0);
+});
 
 // window.addEventListener("load", function () {
 //   setTimeout(function () {
