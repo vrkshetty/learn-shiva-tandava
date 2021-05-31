@@ -1,7 +1,13 @@
-/* html {
-  width: auto !important;
-  overflow-x: hidden !important;
+body {
+  margin: 0;
+  padding: 0;
 }
+.container {
+  background-color: blueviolet;
+  text-align: center;
+}
+
+/* 
 body {
   margin: 0px;
   padding: 0px;
@@ -13,10 +19,10 @@ body {
   background-size: center; 
 }
 
-.wrap {
+/* .wrap {
   text-align: center;
   overflow: hidden;
-}
+} */
 
 .heading {
   color: rgb(1, 0, 68);
@@ -25,7 +31,7 @@ body {
   text-align: center;
 }
 
-.text_wrap {
+/* .text_wrap {
   text-align: center;
 } 
 
@@ -53,4 +59,4 @@ hr {
   background-color: rgb(1, 0, 68);
   height: 2px;
   margin-bottom: 25px;
-} */
+} */ */
