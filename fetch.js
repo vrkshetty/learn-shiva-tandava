@@ -6,11 +6,7 @@ for (var i = 0; i < myListLen; i++) {
 
   mainDiv = document.createElement("div");
   document.body.appendChild(mainDiv);
-  mainDiv.className = "wrap";
-
-  // childDiv = document.createElement("div");
-  // mainDiv.appendChild(childDiv);
-  // mainDiv.className = "textWrap";
+  mainDiv.className = "container";
 
   para = document.createElement("p");
   para.innerHTML = shivaParaText;
@@ -25,32 +21,9 @@ for (var i = 0; i < myListLen; i++) {
   mainDiv.appendChild(audio);
 }
 
-//   para = document.createElement("p");
-//   // para.className = "para_text";
-//   para.innerHTML = shivaParaText;
-//   childDiv.appendChild(para);
-
-//   audio = document.createElement("AUDIO");
-//   audio.setAttribute("controls", "src");
-//   audio.setAttribute("src", shivaAudoSrc);
-//   audio.setAttribute("controlsList", "nodownload");
-//   audio.className = "audio";
-
-//
-//   mainDiv.appendChild(audio);
-//
-// }
-
 window.addEventListener("load", function () {
   setTimeout(function () {
     //     // This hides the address bar:
-    window.scrollTo(0, 1);
-  }, 0);
-});
-
-window.addEventListener("load", function () {
-  setTimeout(function () {
-    // This hides the address bar:
     window.scrollTo(0, 1);
   }, 0);
 });
