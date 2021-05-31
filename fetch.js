@@ -6,7 +6,7 @@ for (var i = 0; i < myListLen; i++) {
 
   mainDiv = document.createElement("div");
   mainDiv.id = "container ";
-  mainDiv.className = "para_text";
+  mainDiv.className = "wrap";
   childDiv = document.createElement("div");
   para = document.createElement("p");
   // para.className = "para_text";
