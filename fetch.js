@@ -17,12 +17,12 @@ for (var i = 0; i < myListLen; i++) {
   para.className = "para_text";
   mainDiv.appendChild(para);
 
-  // audio = document.createElement("AUDIO");
-  // audio.setAttribute("controls", "src");
-  // audio.setAttribute("src", shivaAudoSrc);
-  // audio.setAttribute("controlsList", "nodownload");
-  // audio.className = "audio";
-  // mainDiv.appendChild(audio);
+  audio = document.createElement("AUDIO");
+  audio.setAttribute("controls", "src");
+  audio.setAttribute("src", shivaAudoSrc);
+  audio.setAttribute("controlsList", "nodownload");
+  audio.className = "audio";
+  mainDiv.appendChild(audio);
 }
 
 //   para = document.createElement("p");
