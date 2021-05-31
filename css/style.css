@@ -4,7 +4,9 @@ body {
   text-align: center;
   width: 100%;
   height: 600px;
-  background-color: rgb(240, 237, 41);
+  background-image: url("../images/bg3.jpeg");
+
+  /* background-color: rgb(240, 237, 41); */
 }
 .container {
   overflow: hidden;
@@ -13,13 +15,13 @@ body {
 }
 
 .heading {
-  color: rgb(25, 21, 247);
+  color: rgb(10, 8, 71);
   text-shadow: 2px 2px rgb(13, 142, 240);
   font-size: 20px;
 }
 
 .para_text {
-  color: rgb(25, 21, 247);
+  color: rgb(10, 8, 71);
   font-size: 25px;
   font-weight: bold;
 }
