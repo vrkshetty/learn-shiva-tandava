@@ -9,11 +9,9 @@ body {
 .container {
   background-color: cyan;
   overflow: hidden;
-}
-/* .wrap {
-  background: chartreuse;
   padding: 10px;
-} */
+}
+
 .heading {
   color: rgb(1, 0, 68);
   text-shadow: 2px 2px rgb(13, 142, 240);
