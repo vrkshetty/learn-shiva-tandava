@@ -1,12 +1,40 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: darkorange;
 }
-.container {
-  background-color: blueviolet;
+/* .container{
+  background-color: rgb(13, 142, 240);
   text-align: center;
+} */
+
+.wrap{
+  background-color: rgb(13, 142, 240);
 }
 
+.heading {
+  color: rgb(1, 0, 68);
+  text-shadow: 2px 2px rgb(13, 142, 240);
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.para_text{
+  color:rgb(1, 0, 68)d;
+  text-align: center;
+  font-size: 25px;
+ 
+  font-weight: bold;
+}
+
+/* .textWrap{
+  background-color: chartreuse;
+} */
+/* 
+.para_text{
+  color:darkgoldenrod
+} */
 /* 
 body {
   margin: 0px;
@@ -24,12 +52,7 @@ body {
   overflow: hidden;
 } */
 
-.heading {
-  color: rgb(1, 0, 68);
-  text-shadow: 2px 2px rgb(13, 142, 240);
-  font-size: 20px;
-  text-align: center;
-}
+
 
 /* .text_wrap {
   text-align: center;
