@@ -5,10 +5,11 @@ for (var i = 0; i < myListLen; i++) {
   shivaAudoSrc = myList[i].audoSrc;
 
   mainDiv = document.createElement("div");
-  mainDiv.className = "container ";
+  mainDiv.id = "container ";
+  mainDiv.className = "para_text";
   childDiv = document.createElement("div");
   para = document.createElement("p");
-  para.className = "para_text";
+  // para.className = "para_text";
   para.innerHTML = shivaParaText;
   childDiv.appendChild(para);
 
